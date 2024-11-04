@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lernplattform</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Willkommen zur Lernplattform</h1>
+        <nav>
+            <a href="#courses">Kurse</a>
+            <a href="#about">Über uns</a>
+        </nav>
+    </header>
+    <section id="courses">
+        <h2>Unsere Kurse</h2>
+        <div class="course">
+            <h3>Kurs 1: Einführung in HTML</h3>
+            <p>Beschreibung: Lerne die Grundlagen von HTML.</p>
+            <button onclick="enroll('Kurs 1')">Jetzt anmelden</button>
+        </div>
+        <div class="course">
+            <h3>Kurs 2: CSS für Fortgeschrittene</h3>
+            <p>Beschreibung: Vertiefe dein Wissen in CSS.</p>
+            <button onclick="enroll('Kurs 2')">Jetzt anmelden</button>
+        </div>
+        <div class="course">
+            <h3>Kurs 3: JavaScript Basics</h3>
+            <p>Beschreibung: Verstehe die Grundlagen von JavaScript.</p>
+            <button onclick="enroll('Kurs 3')">Jetzt anmelden</button>
+        </div>
+    </section>
+    <section id="about">
+        <h2>Über uns</h2>
+        <p>Unsere Plattform bietet eine Vielzahl von Kursen, um dein Wissen zu erweitern.</p>
+    </section>
+    <footer>
+        <p>© 2024 Lernplattform</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
